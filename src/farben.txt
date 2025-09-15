@@ -1,0 +1,6 @@
+Primär: bg-indigo-950   /* Sehr dunkles Indigo */
+Sekundär: bg-indigo-900 /* Dunkles Indigo */
+Mittel: bg-blue-800     /* Abendblau */
+Akzent: bg-purple-700   /* Violettblau */
+Highlight: bg-indigo-500 /* Helles Indigo */
+Text: text-indigo-100   /* Helles Indigoweiß */
