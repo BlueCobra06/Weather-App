@@ -38,7 +38,7 @@ function App() {
     }
     setError(null);
     const cityQuery = land ? `${stadt},${land}` : stadt;
-    fetch(`http://localhost:8000/backend/api.php?city=${encodeURIComponent(cityQuery)}&country=${encodeURIComponent(land)}`)
+    fetch(`http://localhost:3001/?city=${encodeURIComponent(cityQuery)}`)
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
